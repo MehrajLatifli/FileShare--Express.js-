@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+        
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 20px;
+        }
+        
+        .product-image {
+          margin-right: 20px;
+          flex: 0 0 200px;
+          margin-bottom: 20px;
+        }
+        
+        .product-image img {
+          width: 100%;
+        }
+        
+        .product-info {
+          flex: 1;
+        }
+        
+        .product-info h1 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+        
+        .product-info .description {
+          font-size: 16px;
+          color: #666;
+          margin-bottom: 20px;
+        }
+        
+        button {
+          background-color: #007bff;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 600px) {
+          .container {
+            flex-direction: column;
+          }
+          
+          .product-image {
+            margin-right: 0;
+          }
+          
+          .product-image img {
+            width: 100%;
+          }
+        }
+    </style>
+</head>
+<body>
+    
+  <div class="container" id="container">
+
+  </div>
+
+      <script src="/javascripts/detail.js">
+      
+      </script>
+</body>
+</html>
